@@ -1,24 +1,23 @@
 body {
     font-family: Arial, sans-serif;
-    /* text-align: center; */
-    /* background-color: #f8f9fa; */
+    
     margin: 0;
     padding: 0;
 }
 
 .container {
-    /* max-width: 600px; */
-    margin: 50px auto;
+
     background: white;
     padding: 20px;
     border-radius: 10px;
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+    margin-left: 200px;
+ 
     
 }
 
 .profile img {
-    width: 100px;
-    height: 100px;  
+    width: 150px;
+    height: 150px;  
     border-radius: 50%;
     border: 3px solid #ddd;
 }
@@ -33,24 +32,25 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 30px;
     margin: 10px 0 5px;
 }
 
 .role {
     color: gray;
-    font-size: 16px;
+    font-size: 25px;
 }
 
 .social-links img {
     width: 24px;
     height: 24px;
-    margin: 10px;
+    margin: 5px;
+    border: white;
 }
 
 .description {
     margin: 15px 0;
-    font-size: 14px;
+    font-size: 19px;
     color: #333;
 }
 
@@ -59,16 +59,18 @@ h2 {
 }
 
 .btn {
+    color: #1E90FF;
     display: inline-block;
     text-decoration: none;
     padding: 10px 20px;
     margin: 5px;
     border-radius: 5px;
     font-weight: bold;
+    border: 1px solid #1E90FF;
 }
 
 .primary {
-    background-color: #007bff;
+    background-color: #1E90FF;
     color: white;
 }
 
@@ -77,11 +79,12 @@ h2 {
 }
 
 footer {
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 190px;
     font-size: 12px;
     color: gray;
 }
 .name{
     padding-left: 5px;
-    margin-left:-220px ;
+    margin-left:-300px ;
 }
